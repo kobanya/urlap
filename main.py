@@ -72,9 +72,9 @@ eletkor_valasztospinbox = tkinter.Spinbox(felhasznaloi_info_keret, from_=18, to=
 eletkor_cimke.grid(row=2, column=0)
 eletkor_valasztospinbox.grid(row=3, column=0)
 
-nemzetiseg_cimke = tkinter.Label(felhasznaloi_info_keret, text="Nemzetiség")
+nemzetiseg_cimke = tkinter.Label(felhasznaloi_info_keret, text="Földrész")
 nemzetiseg_valasztobox = ttk.Combobox(felhasznaloi_info_keret,
-                                      values=["Afrika", "Magyar", "Ázsia", "Európa", "Észak-Amerika", "Óceánia",
+                                      values=["Afrika", "Ázsia", "Európa", "Észak-Amerika", "Óceánia",
                                               "Dél-Amerika"])
 nemzetiseg_cimke.grid(row=2, column=1)
 nemzetiseg_valasztobox.grid(row=3, column=1)
